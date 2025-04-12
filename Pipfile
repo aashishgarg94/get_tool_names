@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+crewai = "*"
+openai = ">=1.0.0"
+fastapi = "*"
+uvicorn = "*"
+pillow = "*"
+python-dotenv = "*"
+numpy = "*"
+pydantic = "*"
+requests = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-openai = "*"
+langchain-community = "*"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.11"
